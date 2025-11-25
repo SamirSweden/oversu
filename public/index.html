@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overload &mdash; About</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <header class="bg-gray-800 shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold text-yellow-400">Overload</a>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="https://overload-uz.pages.dev/#about" target="_blank" class="menu__link hover:text-yellow-400 transition">About</a></li>
+                    <li><a href="https://overload-uz.pages.dev/#plans" target="_blank" class="menu__link hover:text-yellow-400 transition">Pricing</a></li>
+                    <div class="main__web">
+                        <a href="https://overload-uz.pages.dev/" target="_blank" class="bg-white text-black px-4 py-2.5 outline-none border-none rounded-xl">main web</a>
+                    </div>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <section class="py-16">
+            <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+                
+                <div class="flex-1 space-y-6">
+                    <h1 class="text-4xl md:text-5xl font-bold text-left">&mdash; About <span class="text-yellow-300">Overload</span></h1>
+                    <p class="text-gray-300 text-lg leading-relaxed">
+                        🚀 Overload — The Internet Performance & Security Company<br><br>
+                        Overload is a global cloud network built to make the internet faster, safer, and more reliable for businesses of any size.<br><br>
+                        We protect websites, applications, APIs, and entire infrastructures from modern cyber threats while accelerating traffic through our worldwide edge network. From DDoS mitigation and zero-trust security to intelligent routing and edge computing, Overload delivers a modern platform designed for the future of the internet.<br><br>
+                        Our mission is simple: Make the connected world secure, scalable, and lightning-fast.
+                    </p>
+                    <div class="header__apps">
+                        <a href="/connect" class="connect__btn text-center inline-block bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-semibold py-4 px-[70px] rounded-lg transition">Connect</a>
+                    </div>
+                </div>
+
+                <div class="flex-1">
+                    <img src="https://images.surferseo.art/00a45af3-ac25-463e-9a4d-5893fc012628.png" alt="Overload" class="rounded-full shadow-lg w-full object-cover">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="fixed bottom-5 left-1/2 transform -translate-x-1/2 bg-gray-800 border border-gray-700 rounded-2xl shadow-lg py-2 px-6 flex items-center justify-center text-sm">
+        Azimov <h4 class="ml-2 text-gray-400">@ 2025 </h4>
+    </footer>
+
+    <style>
+        @media screen and (max-width:627px) {
+            .connect__btn,.header__apps{
+                width: 100%;
+            }
+        }
+
+        @media (max-width:438px) {
+            .menu__link{
+                display: none !important;
+            }
+        }
+    </style>
+</body>
+</html>
